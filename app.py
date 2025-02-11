@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Welcome to flash home"
+    return "Welcome to flask home"
 
 @app.route('/page1')
 def page1():
